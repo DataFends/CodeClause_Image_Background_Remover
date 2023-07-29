@@ -1,0 +1,63 @@
+/* Set the background color to black and text color to white */
+body {
+    background-color: black;
+    color: white;
+    font-family: "Arial", sans-serif;
+  }
+  
+  /* Center the header text and apply a cool-looking font */
+  .header {
+    text-align: center;
+    font-family: "Segoe UI", sans-serif;
+    color: #ff66cc;
+    margin-top: 40px;
+  }
+  
+  /* Apply pink and blue theme to the buttons */
+  .btn-primary {
+    background-color: #ff66cc;
+    border-color: #ff66cc;
+  }
+  
+  .btn-primary:hover {
+    background-color: #cc00ff;
+    border-color: #cc00ff;
+  }
+  
+  .btn-warning {
+    background-color: #66ccff;
+    border-color: #66ccff;
+  }
+  
+  .btn-warning:hover {
+    background-color: #00ccff;
+    border-color: #00ccff;
+  }
+  
+  /* Center the form and card on the page */
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .card {
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Style the file input field */
+  #fileInput {
+    border-color: #ff66cc;
+    color: #ff66cc;
+  }
+  
+  /* Style the label for the file input field */
+  label[for="fileInput"] {
+    color: #ff66cc;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
